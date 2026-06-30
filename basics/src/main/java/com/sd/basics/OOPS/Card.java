@@ -1,6 +1,6 @@
 package com.sd.basics.OOPS;
 
-public class Card {
+abstract public class Card {
 
     private String cardNo;
     private String cardName;
@@ -9,4 +9,14 @@ public class Card {
         this.cardNo = cardNo;
         this.cardName = cardName;
     }
+
+    public String getCardNo() {
+        return cardNo;
+    }
+
+    public String getCardName() {
+        return cardName;
+    }
+
+    abstract void pay();
 }
