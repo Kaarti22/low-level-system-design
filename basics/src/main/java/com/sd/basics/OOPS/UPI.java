@@ -2,6 +2,10 @@ package com.sd.basics.OOPS;
 
 public class UPI implements PaymentMethod{
 
+    public UPI(String upiId) {
+        this.upiId = upiId;
+    }
+
     String upiId;
 
     @Override
