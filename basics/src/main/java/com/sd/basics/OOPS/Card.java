@@ -1,6 +1,6 @@
 package com.sd.basics.OOPS;
 
-abstract public class Card {
+abstract public class Card implements PaymentMethod {
 
     private String cardNo;
     private String cardName;
@@ -17,6 +17,4 @@ abstract public class Card {
     public String getCardName() {
         return cardName;
     }
-
-    abstract void pay();
 }
