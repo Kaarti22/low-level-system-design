@@ -2,7 +2,7 @@ package com.sd.basics.OOPS;
 
 abstract public class Card implements PaymentMethod {
 
-    private String cardNo;
+    protected String cardNo;
     private String cardName;
 
     public Card(String cardNo, String cardName) {

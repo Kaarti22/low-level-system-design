@@ -7,6 +7,6 @@ public class CreditCard extends Card implements PaymentMethod{
 
     @Override
     public void pay() {
-        System.out.println("Making payment via Credit Card");
+        System.out.println("Making payment via Credit Card" + cardNo);
     }
 }
