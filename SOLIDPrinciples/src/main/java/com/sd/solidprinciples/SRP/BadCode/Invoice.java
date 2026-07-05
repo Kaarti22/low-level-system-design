@@ -1,4 +1,4 @@
-package com.sd.solidprinciples.BadCode;
+package com.sd.solidprinciples.SRP.BadCode;
 
 public class Invoice {
     private double amount;

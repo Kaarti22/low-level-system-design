@@ -1,4 +1,4 @@
-package com.sd.solidprinciples.GoodCode;
+package com.sd.solidprinciples.SRP.GoodCode;
 
 public class Invoice {
     public double amount;
