@@ -2,6 +2,9 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SOLIDPrinciples" options="-parameters" />
+      <module name="SOLIDPrinciples.main" options="-parameters" />
+      <module name="SOLIDPrinciples.test" options="-parameters" />
       <module name="basics" options="-parameters" />
       <module name="basics.main" options="-parameters" />
       <module name="basics.test" options="-parameters" />
