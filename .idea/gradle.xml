@@ -4,6 +4,15 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/BehaviouralPatterns" />
+        <option name="gradleJvm" value="openjdk-26" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/BehaviouralPatterns" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/SOLIDPrinciples" />
         <option name="gradleJvm" value="openjdk-26" />
         <option name="modules">
